@@ -1,5 +1,2 @@
 #!/bin/bash
-html_files=$(find . -maxdepth 1 -name "*.html")
-for file in $html_files; do
-    cp -u "$file" "../"
-done
+cp -un *.html ../
